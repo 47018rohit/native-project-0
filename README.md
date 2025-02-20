@@ -163,5 +163,5 @@ npm test
 5. Open a Pull Request.
 
 ---
-**Author:** Your Name | [LinkedIn](https://www.linkedin.com/in/rohit-prakash-7a07491a0) | [GitHub](https://github.com/47018rohit)
+**Author:** Rohit Prakash | [LinkedIn](https://www.linkedin.com/in/rohit-prakash-7a07491a0) | [GitHub](https://github.com/47018rohit)
 
