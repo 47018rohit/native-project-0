@@ -162,9 +162,6 @@ npm test
 4. Push to your branch (`git push origin feature-branch`).
 5. Open a Pull Request.
 
-## 📜 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ---
-**Author:** Your Name | [LinkedIn](https://linkedin.com/in/yourname) | [GitHub](https://github.com/yourprofile)
+**Author:** Your Name | [LinkedIn](https://www.linkedin.com/in/rohit-prakash-7a07491a0) | [GitHub](https://github.com/47018rohit)
 
