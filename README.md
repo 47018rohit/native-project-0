@@ -18,11 +18,13 @@ This project follows **MVVM + Clean Architecture**, which separates concerns and
 ```
 /root
 │── src/
-│   ├── app/                  # Application-level setup (Navigation, Providers)
-│   ├── presentation/         # UI Layer (Screens, Components, Hooks, Styles)
+│   ├── app/                 # Application-level setup (Navigation, Providers)
+│   │   ├── navigation/      # Navigation setup
+│   ├── presentation/        # UI Layer (Screens, Components, Hooks, Styles)
 │   │   ├── screens/         # Screen Components (View Layer)
 │   │   ├── components/      # Reusable Components
 │   │   ├── hooks/           # Custom Hooks
+│   │   ├── theme/           # Global Styles & Themes
 │   ├── domain/              # Business Logic Layer (Entities, Use Cases, Interfaces)
 │   │   ├── entities/        # Core domain models
 │   │   ├── usecases/        # Business rules and interactors
@@ -33,8 +35,6 @@ This project follows **MVVM + Clean Architecture**, which separates concerns and
 │   │   ├── models/          # DTOs and Response Models
 │   ├── core/                # Core Configurations (Utilities, Helpers, Constants)
 │   ├── assets/              # Images, Fonts, etc.
-│   ├── navigation/          # Navigation setup
-│   ├── theme/               # Global Styles & Themes
 │── tests/                   # Unit and Integration Tests
 │── App.tsx                  # Main Entry File
 │── package.json             # Dependencies and Scripts
